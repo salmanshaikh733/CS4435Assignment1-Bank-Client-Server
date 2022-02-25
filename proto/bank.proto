@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package bank;
+option go_package = "bank/proto/bank";
+
+service Bank {
+
+  rpc Deposit(BankRequest) returns (BankResponse) {}
+
+  rpc Withdraw(BankRequest) returns (BankResponse) {}
+
+  rpc Interest(BankRequest) returns (BankResponse) {}
+}
+
+message BankRequest {
+  int64 accountNum=1;
+  float amount=2;
+}
+message BankResponse {
+  string success = 1;
+}
+
+
+
+

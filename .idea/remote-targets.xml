@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <targets>
+      <target name="WSL - Ubuntu-18.04" type="wsl" uuid="1da8c80c-a73e-4bb9-8eb7-a5c1a4fc7714">
+        <config>
+          <option name="distributionMsId" value="Ubuntu-18.04" />
+          <option name="projectRootOnTarget" value="/mnt/c/Users/salma/AppData/Local/JetBrains/Toolbox/apps/Goland/ch-0/213.6461.81/jbr/bin&#10;/bank" />
+        </config>
+        <ContributedStateBase type="GoLanguageRuntime">
+          <config>
+            <option name="goPath" value="/home/salman/go" />
+            <option name="goRoot" value="/usr/local/go/bin/go" />
+            <option name="goVersion" value="go1.17.7 linux/amd64" />
+          </config>
+        </ContributedStateBase>
+      </target>
+    </targets>
+  </component>
+</project>
